@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SK FASHIONS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #fff8f5;
+      color: #3b3b3b;
+    }
+    header {
+      background-color: #800000;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(120deg, #ffd6d6, #fff);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #5c5c5c;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .catalog {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .catalog-item {
+      background: white;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .catalog-item button {
+      margin-top: 10px;
+      background: #25D366;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #800000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SK FASHIONS</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#catalog">Catalog</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h2>Elegant Readymade Blouses</h2>
+    <p>Fashion that speaks tradition with style – handcrafted for every Indian woman</p>
+  </div>
+
+  <section class="section" id="catalog">
+    <h2>Catalog / सूची</h2>
+    <div class="catalog">
+      <div class="catalog-item">
+        <img src="133948142316585972.jpg" alt="Designer Blouse" width="100%" />
+        <h3>Designer Blouse – Aurora Shine</h3>
+        <p>Price: ₹3,900</p>
+        <a href="https://wa.me/918217869622?text=I%20want%20to%20order%20Designer%20Blouse%20Aurora%20Shine" target="_blank">
+          <button>Order on WhatsApp</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us / हमारे बारे में</h2>
+    <p>
+      Welcome to SK FASHIONS – your go-to shop for stylish, readymade blouses. With years of retail experience,
+      we bring tradition, comfort, and elegance together in every piece. Now available online for your convenience!
+    </p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us / संपर्क करें</h2>
+    <p>📞 Call or WhatsApp: <strong>8217869622</strong>, <strong>8073051557</strong></p>
+    <p>✉️ Email: info@skfashions.in (optional)</p>
+  </section>
+
+  <footer>
+    &copy; 2025 SK FASHIONS. All rights reserved.
+  </footer>
+</body>
+</html>
